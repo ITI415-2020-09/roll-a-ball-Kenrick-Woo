@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Security.Cryptography;
 using UnityEngine;
 
-public class CameraControllerTest : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
     public GameObject player;
     private Vector3 offset;
